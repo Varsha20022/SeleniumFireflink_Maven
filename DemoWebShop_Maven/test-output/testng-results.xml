@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Product is removed successfully from cart]]>
+    </line>
+    <line>
+      <![CDATA[Books page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Product added to wishlist]]>
+    </line>
+    <line>
+      <![CDATA[Product added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Wishlist page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Product removed from wishlist]]>
+    </line>
+    <line>
+      <![CDATA[Registration successful]]>
+    </line>
+    <line>
+      <![CDATA[Registration successful]]>
+    </line>
+    <line>
+      <![CDATA[Registration successful]]>
+    </line>
+    <line>
+      <![CDATA[Registration successful]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-07T15:03:00 IST" name="Suite" finished-at="2024-02-07T15:04:14 IST" duration-ms="74259">
+    <groups>
+    </groups>
+    <test started-at="2024-02-07T15:03:00 IST" name="Test" finished-at="2024-02-07T15:04:14 IST" duration-ms="74259">
+      <class name="org.automation.testscripts.RegistrationTestCase">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:03:35 IST" name="launchBrowser" finished-at="2024-02-07T15:03:41 IST" duration-ms="5543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:03:42 IST" name="performLogin" finished-at="2024-02-07T15:03:44 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:03:44 IST" name="Register" data-provider="RegisterCredential" finished-at="2024-02-07T15:03:48 IST" duration-ms="3776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Teju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[teju123@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[teju@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[teju@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:03:48 IST" name="logOut" finished-at="2024-02-07T15:03:49 IST" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:03:49 IST" name="performLogin" finished-at="2024-02-07T15:03:51 IST" duration-ms="2166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:03:51 IST" name="Register" data-provider="RegisterCredential" finished-at="2024-02-07T15:03:56 IST" duration-ms="4977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Def]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[def2@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[def@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[def@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:03:56 IST" name="logOut" finished-at="2024-02-07T15:03:58 IST" duration-ms="1373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:03:58 IST" name="performLogin" finished-at="2024-02-07T15:03:59 IST" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:03:59 IST" name="Register" data-provider="RegisterCredential" finished-at="2024-02-07T15:04:04 IST" duration-ms="4882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ghi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[stu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ghi3@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ghi@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ghi@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:04:04 IST" name="logOut" finished-at="2024-02-07T15:04:05 IST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:04:05 IST" name="performLogin" finished-at="2024-02-07T15:04:08 IST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:04:08 IST" name="Register" data-provider="RegisterCredential" finished-at="2024-02-07T15:04:13 IST" duration-ms="5197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jkl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vwx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jkl4@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jkl@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jkl@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:04:13 IST" name="logOut" finished-at="2024-02-07T15:04:14 IST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.testscripts.RegistrationTestCase@36bc55de]" started-at="2024-02-07T15:04:14 IST" name="closeBrowser" finished-at="2024-02-07T15:04:14 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.automation.testscripts.RegistrationTestCase -->
+      <class name="org.automation.testscripts.WishlistTestCase">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:org.automation.testscripts.WishlistTestCase@1189dd52]" started-at="2024-02-07T15:03:22 IST" name="launchBrowser" finished-at="2024-02-07T15:03:27 IST" duration-ms="4866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:org.automation.testscripts.WishlistTestCase@1189dd52]" started-at="2024-02-07T15:03:27 IST" name="performLogin" finished-at="2024-02-07T15:03:29 IST" duration-ms="2276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="addToWishlistTestCase()[pri:0, instance:org.automation.testscripts.WishlistTestCase@1189dd52]" started-at="2024-02-07T15:03:29 IST" name="addToWishlistTestCase" finished-at="2024-02-07T15:03:34 IST" duration-ms="4874" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Books page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Product added to wishlist]]>
+            </line>
+            <line>
+              <![CDATA[Product added successfully]]>
+            </line>
+            <line>
+              <![CDATA[Wishlist page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Product removed from wishlist]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToWishlistTestCase -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org.automation.testscripts.WishlistTestCase@1189dd52]" started-at="2024-02-07T15:03:34 IST" name="logOut" finished-at="2024-02-07T15:03:35 IST" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.testscripts.WishlistTestCase@1189dd52]" started-at="2024-02-07T15:03:35 IST" name="closeBrowser" finished-at="2024-02-07T15:03:35 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.automation.testscripts.WishlistTestCase -->
+      <class name="org.automation.testscripts.addToCartTestCase">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:org.automation.testscripts.addToCartTestCase@72d1ad2e]" started-at="2024-02-07T15:03:00 IST" name="launchBrowser" finished-at="2024-02-07T15:03:07 IST" duration-ms="6829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:org.automation.testscripts.addToCartTestCase@72d1ad2e]" started-at="2024-02-07T15:03:07 IST" name="performLogin" finished-at="2024-02-07T15:03:09 IST" duration-ms="2378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="addToCart()[pri:0, instance:org.automation.testscripts.addToCartTestCase@72d1ad2e]" started-at="2024-02-07T15:03:09 IST" name="addToCart" finished-at="2024-02-07T15:03:21 IST" duration-ms="11592" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product is removed successfully from cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org.automation.testscripts.addToCartTestCase@72d1ad2e]" started-at="2024-02-07T15:03:21 IST" name="logOut" finished-at="2024-02-07T15:03:22 IST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.testscripts.addToCartTestCase@72d1ad2e]" started-at="2024-02-07T15:03:22 IST" name="closeBrowser" finished-at="2024-02-07T15:03:22 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.automation.testscripts.addToCartTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
